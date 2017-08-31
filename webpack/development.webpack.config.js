@@ -106,7 +106,7 @@ module.exports = {
       style: config.forge.viewer.style,
 
       template: path.resolve(__dirname, '../src/client/layouts/index.ejs'),
-      title: 'Forge | OSS | DEV',
+      title: 'upload & view!',
       filename: 'index.html',
       minify: false,
       inject: 'head'

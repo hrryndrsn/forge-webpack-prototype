@@ -35,7 +35,7 @@ import ServiceManager from 'SvcManager'
 import StorageSvc from 'StorageSvc'
 
 // ========================================================
-// Services Initialization
+// Services Initialization // creates and connects socket.it-client instance, set up event handler for progress event, creats a storage service
 // ========================================================
 const socketSvc = new SocketSvc({
   host: config.host,
